@@ -1,0 +1,132 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3em;
+}
+header{
+    background-color: #2e323f;
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+}
+li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.nav__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+.nav__link:hover {
+    opacity: .75;
+}
+
+.nav__link--btn{
+    background-color: #a59678;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+}
+.section__one{
+    background-color: #3b4050;
+    color: #fff;
+}
+.section__one__title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+}
+.section__one__title--textChange{
+    color: #a59678;
+}
+.section__one__content{
+    margin: auto 0;
+}
+.section__one--btn{
+    font-family: 'Oswald', sans-serif;
+    background-color: #a59678;
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.section__one--btn:hover{
+    opacity: 0.75;
+}
+
+.section__two{
+    background-color: #f1f1f1;
+}
+.section__two__content{
+    text-align: center;
+}
+.section__two__content h3{
+    font-size: 1.6rem;
+    color: #a59678;
+}
+.section__two__content p{
+    font-size: 1rem;
+}
+
+main{
+    margin-bottom: 3rem;
+}
+
+.section__three__main__content h2{
+    font-size: 2rem;
+    color: #a59678;
+}
+.section__three__main__content p{
+    font-size: 1rem;
+}
+.section__three__aside__content{
+    text-align: center;
+    background-color: #2e323f;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__container{
+    background-color: #3b4050;
+    color: #fff;
+}
+.footer__container__title h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.footer__container__content h3{
+    font-size: 1.5rem;
+    color: #a59678;
+}
+.footer__container__content .nav__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+.footer__nav__link{
+    color: white;
+}
+@media (min-width:700px) {
+    .row{
+        display: flex;
+        gap: 1rem;
+    }
+    
+}
